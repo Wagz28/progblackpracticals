@@ -8,6 +8,9 @@ CORS(app)
 
 MAIN_FOLDER = os.path.join(os.path.dirname(__file__))
 
+
+print(os.path, MAIN_FOLDER)
+
 @app.route('/')
 def home():
     print("Rendering styling-lists.html")
